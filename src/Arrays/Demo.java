@@ -13,7 +13,15 @@ public class Demo {
             rollNumber[i]=i;
             System.out.println(rollNumber[i]);
         }
+        //2d array
+        int[][] marks = new int[3][];
+        for(int i=0;i<marks.length;i++) {
+            for(int j=0;j<marks[i].length;j++) {
+                System.out.println(marks[i][j]);
+            }
+        }
 
+        int[][][] arr = new int[3][][];
 
 
     }
