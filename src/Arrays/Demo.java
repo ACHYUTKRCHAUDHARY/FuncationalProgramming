@@ -31,5 +31,12 @@ public class Demo {
                 {8,9,10,11,12}
         };
 
+        /**
+         * random access
+         * primitive data types jaate hai stack memory me
+         * arr it does not directly holds the array.
+         * it is a reference to an array.
+         */
+        System.out.println(arr[2]);
     }
 }
