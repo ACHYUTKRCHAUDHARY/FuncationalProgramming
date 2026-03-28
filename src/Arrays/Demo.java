@@ -15,15 +15,15 @@ public class Demo {
         }
         //2d array
         int[][] marks = new int[3][];
-        for(int i=0;i<marks.length;i++) {
-            for(int j=0;j<marks[i].length;j++) {
-                System.out.println(marks[i][j]);
-            }
-        }
+//        for(int i=0;i<marks.length;i++) {
+//            for(int j=0;j<marks[i].length;j++) {
+//               System.out.println(marks[i][j]);
+//            }
+//        }
 
         int[][][] arr = new int[3][][];
         //other way of declaration of array
-        int[] arr={1,2,3,4};
+        int[] arr1 = {1,2,3,4};
 
         int[][] arr2={
                 {1,2,3},
@@ -43,5 +43,18 @@ public class Demo {
          * Boolean size is compiler dependent in the java , there is no
          * official java size given to the Boolean data type
          */
+
+        String[] names= new String[3];
+        names[0]="Achyut";
+        names[1]="Himanshu";
+        names[2]="Ajay";
+
+        for(int i=0;i<names.length;i++){
+            System.out.println(names[i]);
+
+            for(int j=0;j<names[i].length();j++){
+                System.out.println(names[i].charAt(j));
+            }
+        }
     }
 }
