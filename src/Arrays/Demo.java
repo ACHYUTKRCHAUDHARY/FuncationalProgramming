@@ -38,5 +38,10 @@ public class Demo {
          * it is a reference to an array.
          */
         System.out.println(arr[2]);
+
+        /**
+         * Boolean size is compiler dependent in the java , there is no
+         * official java size given to the Boolean data type
+         */
     }
 }
