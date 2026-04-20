@@ -53,5 +53,16 @@ public class Generics {
         // Downcasting
         Dog d = (Dog) a;
         d.bark(); // now allowed
+
+        /**
+         * downcasting sometimes is dangerous
+         * Object obj =10;
+         * String s=(String) obj;
+         * in this there will be no complier error but there will be the
+         * error on runtime classcastexpection error.
+         * kyuki complier does not have the idea about the complier it is
+         * totally dependent on the jvm.
+         *
+         */
     }
 }
