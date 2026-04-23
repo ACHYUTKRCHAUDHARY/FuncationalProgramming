@@ -11,6 +11,13 @@ public class Demo {
     }
 }
 
+/**
+ * yaha par hum college ka address kahi par bhi return nhi kar rhe hai that
+ * is why yeh immutable hai.
+ * agar hum karde return college then it can we changeable
+ * and yeh deep copy hai we are return same reference
+ *
+ */
 final class Student{
     private final int age;
     private final String name;
@@ -18,7 +25,7 @@ final class Student{
     Student(int age,String name,College college){
         this.age=age;
         this.name=name;
-        this.college=college;
+        this.college=new College(college.name,college.address);
     }
     //getters
 
@@ -33,7 +40,7 @@ final class Student{
         return college;
     }
 }
-//mutuable
+
 class College{
     String name;
     String address;
