@@ -2,10 +2,12 @@ package Interface;
 
 public class Demo {
     static void main() {
-        /*
-    we cant write the car as Car() in the below statement cause car is an
-    interface there fore we have to use the concrete class
-     */
+       /*
+ We cannot create an object of an interface directly.
+
+ Therefore, we use a concrete class (like Thar)
+ that implements the interface.
+*/
         Car c = new Thar();
         c.drive();
     }
