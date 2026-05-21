@@ -10,7 +10,12 @@ public class Final2 {
         System.out.println(x);
     }
 }
-
+/*
+why main is static in java?
+Final2 f= new Final2();
+f.main();
+JVM calls in this way -> Final2.main()
+ */
 class Random1{
     final double PI;
     Random1(){
